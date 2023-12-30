@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container mt-5 p-5 w-50 ">
+        <div class=" content text-center ">
+            <h2 class="pt-2 pb-3">Smart Login System</h2>
+
+
+                <input type="text" name="" id="name" class="form-control mb-3" placeholder="Enter your name" >
+                <input type="email" name="" id="email" class="form-control mb-3" placeholder="Enter your email" >
+                <input type="password" name="" id="password" class="form-control mb-3" placeholder="Enter your password" >
+                <p id="sucsses" class="text-success fs-4 d-none">Sucsses</p>
+                <p id="dang" class="text-danger fs-4 d-none">You must all the fields</p>
+                <p id="dang2" class="text-danger fs-4 d-none">You Can't use the same email</p>
+                <button  id="btn1" type="submit" class="mt-2">Sign up</button>
+
+
+            <div class="text-white mt-3 mb-5">You have an account? <a id="link" href="index.html">Signin</a></div>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

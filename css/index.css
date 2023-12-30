@@ -1,0 +1,42 @@
+body {
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit  ;
+}
+.container {
+    background-color: #24353F;
+    filter: drop-shadow(5px 5px 15px black);
+}
+h2 {
+    color: #17A2B8;
+}
+input{
+    background-color: transparent !important;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.508)  !important;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+button {
+    width: 100%;
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+    border-radius: 5px;
+    padding: 8px ;
+    background-color: transparent;
+}
+button:hover{
+    background-color: #17A2B8;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}

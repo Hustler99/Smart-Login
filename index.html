@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container mt-5 p-5 w-50 ">
+        <div class=" content text-center ">
+            <h2 class="pt-2 pb-3">Smart Login System</h2>
+
+                <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Enter your email" required>
+                <input type="password" name="password" id="password" class="form-control mb-3" placeholder="Enter your password" required>
+                <p id="danger" class="text-danger fs-4 d-none">All Inputs are required</p>
+                <p id="sucsses" class="text-success fs-4 d-none">Sucsses</p>
+                <button id="btn2" type="submit" class="mt-2">Login</button>
+
+            <div class="text-white mt-3 mb-5">Don't have an account? <a href="signup.html">Sign up</a></div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
